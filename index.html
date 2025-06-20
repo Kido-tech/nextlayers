@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/831d1430b1.js" crossorigin="anonymous"></script>
+	<title>NextLayer Solutions | Digital Solutions for Modern Businesses</title>
+</head>
+<body>
+	<header>
+		<div class="navigations">
+			<nav>
+				<div class="logo">
+					<a href="#"><img src="images/NexLayer Solutions Logo Design_prev_ui.png" alt=""></a>
+				</div>
+
+				<div class="menu-toggle">
+					<i class="fas fa-bars"></i>
+				</div>
+
+				<div class="navigation-links">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Contact us</a></li>
+					</ul>
+				</div>
+
+			</nav>
+		</div>
+
+		<div class="main-head">
+			<div class="main-title">
+				<h1>NEXLAYER</h1>
+				<h2>SOLUTIONS</h2>
+			</div>
+			<div class="head-text">
+				<p>Connecting Ideas. Securing Possibilities.</p><br>
+				<button>Get Started</button>
+			</div>
+		</div>
+	</header>
+
+	<section class="about">
+		<h2>About Us</h2>
+		<div class="about-contents">
+			<div class="about-image">
+				<img src="images/main logo.png" alt="">
+			</div>
+			<div class="about-text">
+				<p>At <strong>NextLayer Solutions</strong> is a dynamic technology company dedicated to providing innovative, reliable, and secure digital solutions for businesses of all sizes. Founded with a passion for excellence in technology, we offer a broad range of services designed to empower organizations in today’s fast-paced digital world. <br> As a company, we believe that technology should not only drive business growth but also secure it. That’s why our solutions are built with security, performance, and scalability in mind—ensuring that our clients are always a step ahead in an increasingly connected world.</p>
+				<button>Read more</button>
+			</div>
+		</div>
+	</section>
+
+	<section class="services">
+		<h2>Our Services</h2>
+		<div class="services-grid">
+			<div class="service-item">
+				<i class="fas fa-shield-alt"></i>
+				<h3>Cybersecurity</h3>
+				<p>Protecting your digital assets with state-of-the-art security solutions.</p>
+			</div>
+			<div class="service-item">
+				<i class="fas fa-network-wired"></i>
+				<h3>Networking</h3>
+				<p>Building robust and scalable network infrastructures for seamless connectivity.</p>
+			</div>
+			<div class="service-item">
+				<i class="fas fa-laptop-code"></i>
+				<h3>Web Design</h3>
+				<p>Creating stunning and user-friendly websites that enhance your online presence.</p>
+			</div>
+			<div class="service-item">
+				<i class="fas fa-tools"></i>
+				<h3>IT Solutions</h3>
+				<p>Delivering comprehensive IT services to optimize your business operations.</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="contact">
+		<h2>Contact Us</h2>
+		<div class="contact-form">
+			<form action="#" method="post">
+				<input type="text" name="name" placeholder="Your Name" required>
+				<input type="email" name="email" placeholder="Your Email" required>
+				<textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+				<button type="submit">Send Message</button>
+			</form>
+		</div>
+
+		<div class="contact-info">
+			<h3>Get in Touch</h3>
+			<p><i class="fas fa-map-marker-alt"></i> 123 NextLayer St, Tech City, TX 12345</p>
+			<p><i class="fas fa-phone-alt"></i> +1 (234) 567-8900</p>
+			<p><i class="fas fa-envelope"></i>nexlayersolution@gmail.com</p>
+			<div class="social-icons">
+				<a href="#"><i class="fab fa-facebook-f"></i></a>
+				<a href="#"><i class="fab fa-twitter"></i></a>
+				<a href="#"><i class="fab fa-linkedin-in"></i></a>
+				<a href="#"><i class="fab fa-instagram"></i></a>
+			</div>
+		</div>
+
+	</section>
+
+	<footer>
+		<div class="footer-content">
+			<p>&copy; 2023 NextLayer Solutions. All rights reserved.</p>
+			<ul>
+				<li><a href="#">Privacy Policy</a></li>
+				<li><a href="#">Terms of Service</a></li>
+				<li><a href="#">Sitemap</a></li>
+			</ul>
+		</div>
+	</footer>
+
+	<script>
+		const menuToggle = document.querySelector('.menu-toggle');
+const navLinks = document.querySelector('.navigation-links');
+
+menuToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+});
+	</script>
+
+</body>
+</html>
